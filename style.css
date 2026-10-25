@@ -292,6 +292,9 @@ main { max-width: 1040px; margin: 0 auto; padding: 0 clamp(16px, 5vw, 32px); }
 .contact-card .icon { margin-bottom: 10px; font-size: 28px; }
 .contact-card p { color: var(--accent-2); word-break: break-all; }
 .contact-card small { color: var(--muted); margin-top: 6px; }
+.socials { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.socials a { color: var(--text); }
+.socials a:hover { text-decoration: none; }
 .print-btn { margin-top: 30px; }
 
 footer { text-align: center; padding: 60px 16px 40px; color: var(--muted); font-size: 13px; }
