@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khalid El Madkoury — CV</title>
+  <meta name="description" content="Full-Stack Web Developer, SEO Specialist and Technical Team Lead based in Kénitra, Morocco." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="#home" class="logo">KE<span>.</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="navLinks">
+      <a href="#about" data-section="about">About</a>
+      <a href="#experience" data-section="experience">Experience</a>
+      <a href="#education" data-section="education">Education</a>
+      <a href="#skills" data-section="skills">Skills</a>
+      <a href="#contact" data-section="contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <p class="mono hello reveal">&lt;hello world /&gt;</p>
+      <h1 class="reveal">Khalid <span class="gradient">El Madkoury</span></h1>
+      <p class="typing reveal"><span id="typed"></span><span class="caret">|</span></p>
+      <p class="hero-sub reveal">Building fast, search-friendly websites and e-commerce stores for clients across 8 countries, from Kénitra, Morocco.</p>
+      <div class="hero-actions reveal">
+        <a href="#contact" class="btn primary magnetic">Get in touch</a>
+        <a href="#experience" class="btn ghost magnetic">See my work</a>
+      </div>
+      <div class="stats reveal">
+        <div class="stat"><strong data-count="3" data-suffix="+">0</strong><span>Years experience</span></div>
+        <div class="stat"><strong data-count="60" data-suffix="+">0</strong><span>Projects delivered</span></div>
+        <div class="stat"><strong data-count="8">0</strong><span>Countries served</span></div>
+        <div class="stat"><strong data-count="4">0</strong><span>Devs in my team</span></div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2 class="section-title reveal"><span class="mono">01.</span> About me</h2>
+      <div class="about-grid">
+        <div class="card about-text reveal tilt">
+          <p>I'm a <strong>Full-Stack Web Developer</strong>, <strong>SEO Specialist</strong> and <strong>Technical Team Lead</strong> with 3+ years of experience and more than 60 web and e-commerce projects shipped.</p>
+          <p>I lead a 4-person development team using Jira and Scrum, and I head Media, Technology &amp; Development at <a href="https://fikra.ma" target="_blank" rel="noopener">Fikra Foundation</a>. I'm also a tech content creator.</p>
+          <p>Alongside work, I'm finishing a Bachelor in Web &amp; Mobile Application Engineering, expanding into iOS, Android and Java backends.</p>
+        </div>
+        <div class="about-side">
+          <div class="card mini reveal tilt">
+            <span class="icon">📍</span>
+            <div><h4>Location</h4><p>Kénitra, Morocco</p></div>
+          </div>
+          <div class="card mini reveal tilt">
+            <span class="icon">🌍</span>
+            <div><h4>Clients in</h4><p>Morocco, Algeria, France, Spain, UK, USA, Italy, UAE</p></div>
+          </div>
+          <div class="card mini reveal tilt">
+            <span class="icon">🗣️</span>
+            <div>
+              <h4>Languages</h4>
+              <div class="langs">
+                <span class="chip">Arabic · Native</span>
+                <span class="chip">French · Professional</span>
+                <span class="chip">English · Professional</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <h2 class="section-title reveal"><span class="mono">02.</span> Experience</h2>
+      <p class="hint reveal">Click a role to see details.</p>
+      <div class="timeline">
+        <article class="t-item reveal">
+          <div class="t-dot"></div>
+          <button class="t-head" aria-expanded="false">
+            <div>
+              <h3>Technical Team Lead</h3>
+              <p class="t-meta">Development team · Present</p>
+            </div>
+            <span class="t-toggle">+</span>
+          </button>
+          <div class="t-body">
+            <ul>
+              <li>Lead a team of 4 developers through Scrum sprints in Jira.</li>
+              <li>Plan sprints, review code and set technical direction for client projects.</li>
+              <li>Coordinate delivery between clients, designers and developers.</li>
+            </ul>
+            <div class="tags"><span>Scrum</span><span>Jira</span><span>Code review</span><span>Git</span></div>
+          </div>
+        </article>
+
+        <article class="t-item reveal">
+          <div class="t-dot"></div>
+          <button class="t-head" aria-expanded="false">
+            <div>
+              <h3>Head of Media, Technology &amp; Development</h3>
+              <p class="t-meta">Fikra Foundation · fikra.ma · Present</p>
+            </div>
+            <span class="t-toggle">+</span>
+          </button>
+          <div class="t-body">
+            <ul>
+              <li>Designed and built the foundation's website, <a href="https://fikra.ma" target="_blank" rel="noopener">fikra.ma</a>.</li>
+              <li>Run the foundation's media, technology and digital development.</li>
+            </ul>
+            <div class="tags"><span>Web development</span><span>Media</span><span>SEO</span></div>
+          </div>
+        </article>
+
+        <article class="t-item reveal">
+          <div class="t-dot"></div>
+          <button class="t-head" aria-expanded="false">
+            <div>
+              <h3>Full-Stack Web Developer &amp; SEO Specialist</h3>
+              <p class="t-meta">Freelance · 3+ years</p>
+            </div>
+            <span class="t-toggle">+</span>
+          </button>
+          <div class="t-body">
+            <ul>
+              <li>Delivered 60+ websites and e-commerce stores for clients in 8 countries.</li>
+              <li>Built custom apps with React and Laravel, and stores with WooCommerce and Shopify.</li>
+              <li>Improved search visibility with technical SEO, Search Console and Analytics.</li>
+              <li>Handled deployment and performance with Cloudflare, Hostinger and Docker.</li>
+            </ul>
+            <div class="tags"><span>React</span><span>Laravel</span><span>WordPress</span><span>Shopify</span><span>SEO</span></div>
+          </div>
+        </article>
+
+        <article class="t-item reveal">
+          <div class="t-dot"></div>
+          <button class="t-head" aria-expanded="false">
+            <div>
+              <h3>Tech Content Creator</h3>
+              <p class="t-meta">Online · Present</p>
+            </div>
+            <span class="t-toggle">+</span>
+          </button>
+          <div class="t-body">
+            <ul>
+              <li>Create content about web development and technology.</li>
+            </ul>
+            <div class="tags"><span>Content</span><span>Canva</span><span>Figma</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <h2 class="section-title reveal"><span class="mono">03.</span> Education</h2>
+      <div class="edu card reveal tilt">
+        <div class="edu-head">
+          <div>
+            <h3>Bachelor en Technologie — Ingénierie des Applications Web et Mobile (IAWM)</h3>
+            <p class="t-meta">EST Salé · Université Mohammed V · Semester 5, in progress</p>
+          </div>
+          <span class="badge">🎓 In progress</span>
+        </div>
+        <div class="semester">
+          <div class="semester-bar"><span style="--w: 83%"></span></div>
+          <small class="mono">Semester 5 of 6</small>
+        </div>
+        <h4>Current courses</h4>
+        <div class="courses">
+          <div class="course" tabindex="0"><span>🍎</span>iOS<small>Swift 6.x</small></div>
+          <div class="course" tabindex="0"><span>🤖</span>Android<small>Java / Kotlin</small></div>
+          <div class="course" tabindex="0"><span>☕</span>Backend &amp; APIs<small>Jakarta EE</small></div>
+          <div class="course" tabindex="0"><span>🌐</span>Advanced Web<small>Développement Web Avancée</small></div>
+          <div class="course" tabindex="0"><span>🎨</span>UX Design<small>Research &amp; prototyping</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2 class="section-title reveal"><span class="mono">04.</span> Skills</h2>
+      <div class="tabs reveal" role="tablist">
+        <button class="tab active" role="tab" data-tab="prod">Production</button>
+        <button class="tab" role="tab" data-tab="devops">DevOps</button>
+        <button class="tab" role="tab" data-tab="learning">Learning</button>
+        <button class="tab" role="tab" data-tab="seo">SEO &amp; Tools</button>
+        <span class="tab-indicator"></span>
+      </div>
+
+      <div class="panel active" id="prod">
+        <div class="skill"><span>React.js</span><div class="bar"><i data-level="90"></i></div></div>
+        <div class="skill"><span>JavaScript (ES6+)</span><div class="bar"><i data-level="90"></i></div></div>
+        <div class="skill"><span>Laravel / PHP</span><div class="bar"><i data-level="88"></i></div></div>
+        <div class="skill"><span>HTML / CSS</span><div class="bar"><i data-level="95"></i></div></div>
+        <div class="skill"><span>WordPress · WooCommerce · Elementor</span><div class="bar"><i data-level="92"></i></div></div>
+        <div class="skill"><span>Shopify · Webflow</span><div class="bar"><i data-level="85"></i></div></div>
+        <div class="skill"><span>MySQL</span><div class="bar"><i data-level="82"></i></div></div>
+      </div>
+      <div class="panel" id="devops">
+        <div class="chips">
+          <span class="chip big">Git</span><span class="chip big">GitHub</span><span class="chip big">Docker</span>
+          <span class="chip big">Linux CLI</span><span class="chip big">Cloudflare</span><span class="chip big">Hostinger</span>
+        </div>
+      </div>
+      <div class="panel" id="learning">
+        <div class="chips">
+          <span class="chip big">Swift 6.x</span><span class="chip big">Java (JDK 21)</span><span class="chip big">Jakarta EE Servlets</span>
+          <span class="chip big">JSP / JSTL</span><span class="chip big">Maven</span><span class="chip big">Apache Tomcat 10</span>
+          <span class="chip big">Android (Java / Kotlin)</span>
+        </div>
+      </div>
+      <div class="panel" id="seo">
+        <div class="chips">
+          <span class="chip big">Google Search Console</span><span class="chip big">Google Analytics</span>
+          <span class="chip big">Figma</span><span class="chip big">Canva</span><span class="chip big">Jira</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2 class="section-title reveal"><span class="mono">05.</span> Contact</h2>
+      <p class="contact-lead reveal">Have a project or an idea? Let's build it.</p>
+      <div class="contact-grid">
+        <button class="card contact-card reveal tilt" id="copyEmail" data-email="khalidmdkoury@gmail.com">
+          <span class="icon">✉️</span>
+          <h4>Email</h4>
+          <p>khalidmdkoury@gmail.com</p>
+          <small class="mono">Click to copy</small>
+        </button>
+        <a class="card contact-card reveal tilt" href="https://github.com/ElMadkoury" target="_blank" rel="noopener">
+          <span class="icon">💻</span>
+          <h4>GitHub</h4>
+          <p>@ElMadkoury</p>
+          <small class="mono">Open profile ↗</small>
+        </a>
+        <a class="card contact-card reveal tilt" href="https://fikra.ma" target="_blank" rel="noopener">
+          <span class="icon">🌐</span>
+          <h4>Fikra Foundation</h4>
+          <p>fikra.ma</p>
+          <small class="mono">Visit site ↗</small>
+        </a>
+      </div>
+      <button class="btn ghost print-btn reveal" id="printBtn">⬇ Download as PDF</button>
+    </section>
+  </main>
+
+  <footer>
+    <p class="mono">© <span id="year"></span> Khalid El Madkoury · Built with HTML, CSS &amp; JS</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
